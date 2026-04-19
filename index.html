@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flormar Bahrain | Makeup & Beauty</title>
+    <meta
+      name="description"
+      content="Discover Flormar Bahrain's latest makeup collections, best sellers, and in-store beauty offers."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home">Flormar Bahrain</a>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <nav id="menu" class="menu" aria-label="Main navigation">
+          <a href="#collections">Collections</a>
+          <a href="#bestsellers">Best Sellers</a>
+          <a href="#offers">Offers</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">New in Bahrain</p>
+            <h1>Glow with confidence, every day.</h1>
+            <p>
+              Explore iconic Flormar shades, skin-loving formulas, and beauty essentials curated for
+              Bahrain.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#collections">Shop Collections</a>
+              <a class="btn btn-secondary" href="#offers">View Offers</a>
+            </div>
+          </div>
+          <div class="hero-card" aria-label="Featured highlight">
+            <h2>Spring Radiance Kit</h2>
+            <p>
+              Includes primer, lipstick, and highlighter trio.
+            </p>
+            <span class="price">BHD 18.500</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="collections" class="section">
+        <div class="container">
+          <h2 class="section-title">Featured Collections</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Matte Lip Studio</h3>
+              <p>Long-lasting lipsticks with rich pigments for all-day wear.</p>
+            </article>
+            <article class="card">
+              <h3>Silk Touch Base</h3>
+              <p>Breathable foundations and concealers with smooth coverage.</p>
+            </article>
+            <article class="card">
+              <h3>Golden Hour Glow</h3>
+              <p>Bronzers and illuminators inspired by warm Gulf evenings.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="bestsellers" class="section section-accent">
+        <div class="container">
+          <h2 class="section-title">Best Sellers</h2>
+          <ul class="product-list">
+            <li><span>Perfect Coverage Foundation</span> <strong>BHD 6.900</strong></li>
+            <li><span>Waterproof Eyeliner</span> <strong>BHD 3.200</strong></li>
+            <li><span>Jelly Look Nail Enamel</span> <strong>BHD 2.100</strong></li>
+            <li><span>HD Invisible Loose Powder</span> <strong>BHD 5.800</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="offers" class="section">
+        <div class="container offer">
+          <div>
+            <h2 class="section-title">Beauty Weekend Offer</h2>
+            <p>
+              Get <strong>20% off</strong> when you buy any 3 items in-store this weekend.
+            </p>
+          </div>
+          <button class="btn btn-primary" id="offer-btn">Claim in Store</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Flormar Bahrain</h2>
+          <p>Seef District, Manama</p>
+        </div>
+        <div>
+          <p><strong>Phone:</strong> +973 1700 1234</p>
+          <p><strong>Email:</strong> hello@flormarbh.com</p>
+        </div>
+      </div>
+      <p class="copyright">© <span id="year"></span> Flormar Bahrain. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
